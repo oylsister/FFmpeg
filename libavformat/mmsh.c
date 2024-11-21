@@ -26,10 +26,10 @@
  */
 
 #include <string.h>
-#include "libavutil/intreadwrite.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
 #include "avformat.h"
 #include "mms.h"
 #include "http.h"

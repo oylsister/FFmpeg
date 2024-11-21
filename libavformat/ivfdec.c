@@ -22,7 +22,7 @@
 #include "demux.h"
 #include "internal.h"
 #include "riff.h"
-#include "libavutil/intreadwrite.h"
+#include "../libavutil/intreadwrite.h"
 
 static int probe(const AVProbeData *p)
 {

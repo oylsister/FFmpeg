@@ -31,8 +31,8 @@
  *  http://wiki.multimedia.cx/index.php?title=American_Laser_Games_MM
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/intreadwrite.h"
+#include "../libavutil/channel_layout.h"
+#include "../libavutil/intreadwrite.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

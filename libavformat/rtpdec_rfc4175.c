@@ -23,10 +23,10 @@
 
 #include "avio_internal.h"
 #include "rtpdec_formats.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/parseutils.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/pixdesc.h"
+#include "../libavutil/parseutils.h"
 
 struct PayloadContext {
     char *sampling;

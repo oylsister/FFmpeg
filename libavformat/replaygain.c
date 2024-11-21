@@ -25,11 +25,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/dict.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/replaygain.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/dict.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/mathematics.h"
+#include "../libavutil/replaygain.h"
 
 #include "avformat.h"
 #include "internal.h"

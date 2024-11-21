@@ -26,10 +26,10 @@
 #include <assert.h>
 #include <stdint.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem.h"
-#include "libavcodec/codec_id.h"
+#include "../libavutil/avassert.h"
+#include "../libavutil/channel_layout.h"
+#include "../libavutil/mem.h"
+#include "../libavcodec/codec_id.h"
 #include "mov_chan.h"
 
 enum {

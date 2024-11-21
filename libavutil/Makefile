@@ -99,7 +99,7 @@ HEADERS = adler32.h                                                     \
 ARCH_HEADERS = bswap.h                                                  \
                intmath.h                                                \
                intreadwrite.h                                           \
-               timer.h                                                  \
+               fftimer.h                                                  \
 
 BUILT_HEADERS = avconfig.h                                              \
                 ffversion.h

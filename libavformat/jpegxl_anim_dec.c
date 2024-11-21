@@ -28,10 +28,10 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavcodec/jpegxl.h"
-#include "libavcodec/jpegxl_parse.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
+#include "../libavcodec/jpegxl.h"
+#include "../libavcodec/jpegxl_parse.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/opt.h"
 
 #include "avformat.h"
 #include "demux.h"

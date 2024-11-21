@@ -22,12 +22,12 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/avassert.h"
+#include "../libavutil/attributes.h"
+#include "../libavutil/cpu.h"
+#include "../libavutil/avassert.h"
 
-#include "libavutil/arm/cpu.h"
-#include "libswresample/resample.h"
+#include "../libavutil/arm/cpu.h"
+#include "resample.h"
 
 #define DECLARE_RESAMPLE_COMMON_TEMPLATE(TYPE, DELEM, FELEM, FELEM2, OUT)                         \
                                                                                                   \

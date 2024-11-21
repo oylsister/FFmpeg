@@ -29,9 +29,9 @@
 #include "metadata.h"
 #include "mux.h"
 #include "version.h"
-#include "libavutil/dict.h"
-#include "libavutil/log.h"
-#include "libavutil/macros.h"
+#include "../libavutil/dict.h"
+#include "../libavutil/log.h"
+#include "../libavutil/macros.h"
 
 static int lrc_write_header(AVFormatContext *s)
 {

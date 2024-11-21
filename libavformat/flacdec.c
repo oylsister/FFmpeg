@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/bytestream.h"
-#include "libavcodec/flac.h"
+#include "../libavutil/channel_layout.h"
+#include "../libavutil/mem.h"
+#include "../libavcodec/avcodec.h"
+#include "../libavcodec/bytestream.h"
+#include "../libavcodec/flac.h"
 #include "avformat.h"
 #include "demux.h"
 #include "flac_picture.h"

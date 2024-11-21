@@ -35,15 +35,15 @@
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"
-#include "libavcodec/dv_profile.h"
-#include "libavcodec/dv.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/timecode.h"
+#include "../libavcodec/dv_profile.h"
+#include "../libavcodec/dv.h"
+#include "../libavutil/channel_layout.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/mathematics.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/timecode.h"
 #include "dv.h"
-#include "libavutil/avassert.h"
+#include "../libavutil/avassert.h"
 
 #if CONFIG_DV_DEMUXER
 

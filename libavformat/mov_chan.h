@@ -28,9 +28,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavcodec/codec_id.h"
-#include "libavcodec/codec_par.h"
+#include "../libavutil/channel_layout.h"
+#include "../libavcodec/codec_id.h"
+#include "../libavcodec/codec_par.h"
 #include "avformat.h"
 
 /**

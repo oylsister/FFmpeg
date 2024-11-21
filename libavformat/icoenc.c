@@ -24,10 +24,10 @@
  * Microsoft Windows ICO muxer
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/mem.h"
 
-#include "libavcodec/codec_id.h"
+#include "../libavcodec/codec_id.h"
 
 #include "avformat.h"
 #include "avio_internal.h"

@@ -38,13 +38,13 @@
 #include <dvdread/ifo_types.h>
 #include <dvdread/nav_read.h>
 
-#include "libavcodec/ac3_parser.h"
-#include "libavutil/avstring.h"
-#include "libavutil/avutil.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/samplefmt.h"
+#include "../libavcodec/ac3_parser.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/avutil.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/samplefmt.h"
 
 #include "avformat.h"
 #include "avio_internal.h"

@@ -21,10 +21,10 @@
 
 #include <string.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/dict.h"
-#include "libavutil/error.h"
-#include "libavutil/mem.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/dict.h"
+#include "../libavutil/error.h"
+#include "../libavutil/mem.h"
 #include "tee_common.h"
 #include "url.h"
 

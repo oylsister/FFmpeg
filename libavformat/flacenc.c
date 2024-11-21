@@ -19,12 +19,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavcodec/flac.h"
-#include "libavcodec/packet_internal.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/channel_layout.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/pixdesc.h"
+#include "../libavcodec/flac.h"
+#include "../libavcodec/packet_internal.h"
 #include "avformat.h"
 #include "avio_internal.h"
 #include "flacenc.h"

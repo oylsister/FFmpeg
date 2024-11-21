@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/aes.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include "../libavutil/aes.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
 #include "url.h"
 
 // encourage reads of 4096 bytes - 1 block is always retained.

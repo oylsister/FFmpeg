@@ -32,12 +32,12 @@
 #include <zlib.h>
 #endif
 
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/dict.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavcodec/png.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/bprint.h"
+#include "../libavutil/dict.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/mem.h"
+#include "../libavcodec/png.h"
 #include "avio_internal.h"
 #include "demux.h"
 #include "id3v1.h"

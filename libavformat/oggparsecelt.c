@@ -21,8 +21,8 @@
 
 #include <string.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/mem.h"
 #include "avformat.h"
 #include "internal.h"
 #include "oggdec.h"

@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include "../libavutil/attributes.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/mem.h"
 
 #include "avio_internal.h"
 #include "rtpdec_formats.h"

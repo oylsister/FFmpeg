@@ -24,8 +24,8 @@
  * Tiertex Limited SEQ file demuxer
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem.h"
+#include "../libavutil/channel_layout.h"
+#include "../libavutil/mem.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

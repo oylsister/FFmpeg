@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/dict.h"
-#include "libavutil/mem.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/dict.h"
+#include "../libavutil/mem.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

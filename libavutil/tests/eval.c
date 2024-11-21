@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/timer.h"
+#include "libavutil/fftimer.h"
 
 #include <math.h>
 #include <stdio.h>

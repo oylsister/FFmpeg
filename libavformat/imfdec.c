@@ -66,12 +66,12 @@
 #include "demux.h"
 #include "imf.h"
 #include "internal.h"
-#include "libavcodec/packet.h"
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include "../libavcodec/packet.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/bprint.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
 #include <inttypes.h>
 #include <libxml/parser.h>
 

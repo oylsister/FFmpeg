@@ -25,7 +25,7 @@
 #include "libavcodec/put_bits.h"
 #include "libavutil/lfg.h"
 #include "libavutil/mem.h"
-#include "libavutil/timer.h"
+#include "libavutil/fftimer.h"
 
 #define MAX_FORMATS 1000 //this must be larger than the number of formats
 static int score_array[MAX_FORMATS];

@@ -25,8 +25,8 @@
  * Unix socket url_protocol
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/opt.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/opt.h"
 #include "os_support.h"
 #include "network.h"
 #include <sys/un.h>

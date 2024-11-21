@@ -24,11 +24,11 @@
 
 #include <stddef.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/internal.h"
-#include "libavutil/macros.h"
-#include "libavutil/mem.h"
-#include "libavformat/internal.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/internal.h"
+#include "../libavutil/macros.h"
+#include "../libavutil/mem.h"
+#include "internal.h"
 #include "avformat.h"
 #include "demux.h"
 

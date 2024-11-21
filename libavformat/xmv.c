@@ -27,14 +27,14 @@
 
 #include <inttypes.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/mem.h"
 
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"
 #include "riff.h"
-#include "libavutil/avassert.h"
+#include "../libavutil/avassert.h"
 
 /** The min size of an XMV header. */
 #define XMV_MIN_HEADER_SIZE 36

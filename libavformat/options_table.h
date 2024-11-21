@@ -23,7 +23,7 @@
 
 #include <limits.h>
 
-#include "libavutil/opt.h"
+#include "../libavutil/opt.h"
 #include "avformat.h"
 #include "internal.h"
 

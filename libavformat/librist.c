@@ -21,11 +21,11 @@
  * Reliable Internet Streaming Transport protocol
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/time.h"
+#include "../libavutil/avassert.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/parseutils.h"
+#include "../libavutil/time.h"
 
 #include "avformat.h"
 #include "internal.h"

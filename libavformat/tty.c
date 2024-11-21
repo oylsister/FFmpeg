@@ -24,12 +24,12 @@
  * Tele-typewriter demuxer
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/avstring.h"
-#include "libavutil/log.h"
-#include "libavutil/dict.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/log.h"
+#include "../libavutil/dict.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/parseutils.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

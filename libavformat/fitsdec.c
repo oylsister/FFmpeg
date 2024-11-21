@@ -26,8 +26,8 @@
 
 #include "demux.h"
 #include "internal.h"
-#include "libavutil/opt.h"
-#include "libavcodec/fits.h"
+#include "../libavutil/opt.h"
+#include "../libavcodec/fits.h"
 
 #define FITS_BLOCK_SIZE 2880
 

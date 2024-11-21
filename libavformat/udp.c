@@ -28,14 +28,14 @@
 #define _BSD_SOURCE     /* Needed for using struct ip_mreq with recent glibc */
 
 #include "avformat.h"
-#include "libavutil/avassert.h"
-#include "libavutil/mem.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/fifo.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
-#include "libavutil/log.h"
-#include "libavutil/time.h"
+#include "../libavutil/avassert.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/parseutils.h"
+#include "../libavutil/fifo.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/log.h"
+#include "../libavutil/time.h"
 #include "network.h"
 #include "os_support.h"
 #include "url.h"
@@ -65,7 +65,7 @@
 #endif
 
 #if HAVE_PTHREAD_CANCEL
-#include "libavutil/thread.h"
+#include "../libavutil/thread.h"
 #endif
 
 #ifndef IPV6_ADD_MEMBERSHIP

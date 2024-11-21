@@ -27,7 +27,7 @@
  * @author Luca Abeni <lucabe72@email.it>
  */
 
-#include "libavutil/intreadwrite.h"
+#include "../libavutil/intreadwrite.h"
 
 #include "avformat.h"
 #include "avc.h"

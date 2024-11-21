@@ -18,7 +18,7 @@
 
 // LCOV_EXCL_START
 
-#include "libavutil/timer.h"
+#include "libavutil/fftimer.h"
 
 #include <stdint.h>
 #include <stdio.h>

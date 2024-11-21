@@ -27,10 +27,10 @@
 #if CONFIG_NETWORK
 #include "network.h"
 #endif
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/error.h"
-#include "libavutil/mem.h"
+#include "../libavutil/avassert.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/error.h"
+#include "../libavutil/mem.h"
 
 /**
  * @file

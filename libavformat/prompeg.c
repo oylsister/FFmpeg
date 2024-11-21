@@ -80,10 +80,10 @@
 
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/random_seed.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/random_seed.h"
 #include "avformat.h"
 #include "config.h"
 #include "url.h"

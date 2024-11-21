@@ -35,13 +35,13 @@
 #include "matroska.h"
 #include "mux.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/dict.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/time_internal.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/dict.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/time_internal.h"
 
-#include "libavcodec/codec_desc.h"
+#include "../libavcodec/codec_desc.h"
 
 typedef struct AdaptationSet {
     char id[10];

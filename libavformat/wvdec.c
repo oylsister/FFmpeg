@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/dict.h"
+#include "../libavutil/channel_layout.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/dict.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

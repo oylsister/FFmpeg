@@ -21,9 +21,9 @@
 
 #include "avformat.h"
 #include "demux.h"
-#include "libavutil/avstring.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/mem.h"
 #include "network.h"
 #include "os_support.h"
 #include "internal.h"

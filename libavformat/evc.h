@@ -24,9 +24,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/rational.h"
-#include "libavcodec/evc.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/rational.h"
+#include "../libavcodec/evc.h"
 #include "avio.h"
 
 static inline int evc_get_nalu_type(const uint8_t *p, int bits_size)

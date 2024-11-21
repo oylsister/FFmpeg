@@ -27,13 +27,13 @@
  *      support work with concatdec, hls
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/error.h"
-#include "libavutil/fifo.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/thread.h"
+#include "../libavutil/avassert.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/error.h"
+#include "../libavutil/fifo.h"
+#include "../libavutil/log.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/thread.h"
 #include "url.h"
 #include <stdint.h>
 

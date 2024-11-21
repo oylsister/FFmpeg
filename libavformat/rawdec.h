@@ -24,7 +24,7 @@
 
 #include "avformat.h"
 #include "demux.h"
-#include "libavutil/log.h"
+#include "../libavutil/log.h"
 
 typedef struct FFRawVideoDemuxerContext {
     const AVClass *class;     /**< Class for private options. */

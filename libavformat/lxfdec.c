@@ -21,8 +21,8 @@
 
 #include <inttypes.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/bytestream.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavcodec/bytestream.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

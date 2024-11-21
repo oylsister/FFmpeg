@@ -31,10 +31,10 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/error.h"
-#include "libavutil/mem.h"
-#include "libavutil/random_seed.h"
+#include "../libavutil/attributes.h"
+#include "../libavutil/error.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/random_seed.h"
 
 #include "rtmpdh.h"
 

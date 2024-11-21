@@ -24,10 +24,10 @@
 
 #define MODPLUG_STATIC
 #include <libmodplug/modplug.h>
-#include "libavutil/avstring.h"
-#include "libavutil/eval.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/eval.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

@@ -27,12 +27,12 @@
  * @author Josh Allmann <joshua.allmann@gmail.com>
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/base64.h"
-#include "libavutil/mem.h"
-#include "libavcodec/bytestream.h"
+#include "../libavutil/attributes.h"
+#include "../libavutil/avassert.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/base64.h"
+#include "../libavutil/mem.h"
+#include "../libavcodec/bytestream.h"
 
 #include "avio_internal.h"
 #include "internal.h"

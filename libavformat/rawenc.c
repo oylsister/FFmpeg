@@ -22,7 +22,7 @@
 
 #include "config_components.h"
 
-#include "libavutil/intreadwrite.h"
+#include "../libavutil/intreadwrite.h"
 
 #include "avformat.h"
 #include "rawenc.h"

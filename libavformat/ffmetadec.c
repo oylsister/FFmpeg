@@ -19,13 +19,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/bprint.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
+#include "../libavutil/bprint.h"
+#include "../libavutil/mathematics.h"
+#include "../libavutil/mem.h"
 #include "avformat.h"
 #include "demux.h"
 #include "ffmeta.h"
-#include "libavutil/dict.h"
+#include "../libavutil/dict.h"
 
 static int probe(const AVProbeData *p)
 {

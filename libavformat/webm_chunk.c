@@ -30,10 +30,10 @@
 #include "internal.h"
 #include "mux.h"
 
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/mathematics.h"
+#include "../libavutil/log.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/mathematics.h"
 
 #define MAX_FILENAME_SIZE 1024
 

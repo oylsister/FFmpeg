@@ -29,18 +29,18 @@
  */
 #include <time.h>
 
-#include "libavutil/time_internal.h"
+#include "../libavutil/time_internal.h"
 #include "avformat.h"
-#include "libavcodec/dv_profile.h"
-#include "libavcodec/dv.h"
+#include "../libavcodec/dv_profile.h"
+#include "../libavcodec/dv.h"
 #include "dv.h"
 #include "mux.h"
-#include "libavutil/avassert.h"
-#include "libavutil/fifo.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/timecode.h"
+#include "../libavutil/avassert.h"
+#include "../libavutil/fifo.h"
+#include "../libavutil/mathematics.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/pixdesc.h"
+#include "../libavutil/timecode.h"
 
 #define MAX_AUDIO_FRAME_SIZE 192000 // 1 second of 48khz 32-bit audio
 

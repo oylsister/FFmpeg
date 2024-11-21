@@ -21,10 +21,10 @@
 
 #include "config_components.h"
 
-#include "libavutil/imgutils.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/opt.h"
+#include "../libavutil/imgutils.h"
+#include "../libavutil/parseutils.h"
+#include "../libavutil/pixdesc.h"
+#include "../libavutil/opt.h"
 #include "demux.h"
 #include "internal.h"
 #include "avformat.h"

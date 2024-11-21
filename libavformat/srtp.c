@@ -19,12 +19,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/base64.h"
-#include "libavutil/aes.h"
-#include "libavutil/hmac.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
+#include "../libavutil/base64.h"
+#include "../libavutil/aes.h"
+#include "../libavutil/hmac.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/log.h"
+#include "../libavutil/mem.h"
 #include "rtp.h"
 #include "rtpdec.h"
 #include "srtp.h"

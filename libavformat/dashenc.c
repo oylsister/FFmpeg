@@ -27,20 +27,20 @@
 #include <unistd.h>
 #endif
 
-#include "libavutil/avassert.h"
-#include "libavutil/avutil.h"
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/rational.h"
-#include "libavutil/time.h"
-#include "libavutil/time_internal.h"
+#include "../libavutil/avassert.h"
+#include "../libavutil/avutil.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/bprint.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/mathematics.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/parseutils.h"
+#include "../libavutil/rational.h"
+#include "../libavutil/time.h"
+#include "../libavutil/time_internal.h"
 
-#include "libavcodec/avcodec.h"
+#include "../libavcodec/avcodec.h"
 
 #include "av1.h"
 #include "avc.h"

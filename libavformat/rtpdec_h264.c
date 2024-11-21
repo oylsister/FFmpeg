@@ -33,11 +33,11 @@
  *                        FU-B packet types)
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/base64.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
+#include "../libavutil/attributes.h"
+#include "../libavutil/base64.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/mem.h"
 #include "avformat.h"
 
 #include "rtpdec.h"

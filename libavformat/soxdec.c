@@ -29,10 +29,10 @@
  * @see http://wiki.multimedia.cx/index.php?title=SoX_native_intermediate_format
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/dict.h"
-#include "libavutil/mem.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/intfloat.h"
+#include "../libavutil/dict.h"
+#include "../libavutil/mem.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

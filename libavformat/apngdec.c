@@ -30,13 +30,13 @@
 #include "avio_internal.h"
 #include "demux.h"
 #include "internal.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavcodec/apng.h"
-#include "libavcodec/png.h"
-#include "libavcodec/bytestream.h"
+#include "../libavutil/imgutils.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
+#include "../libavcodec/apng.h"
+#include "../libavcodec/png.h"
+#include "../libavcodec/bytestream.h"
 
 #define DEFAULT_APNG_FPS 15
 

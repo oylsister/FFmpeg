@@ -19,10 +19,10 @@
  */
 
 #include <stdio.h>
-#include "libavutil/avstring.h"
-#include "libavutil/md5.h"
-#include "libavutil/mem.h"
-#include "libavutil/error.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/md5.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/error.h"
 #include "avio.h"
 #include "internal.h"
 #include "url.h"

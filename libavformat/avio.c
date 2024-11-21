@@ -19,12 +19,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/dict.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavutil/avassert.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/dict.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/time.h"
+#include "../libavutil/avassert.h"
 #include "avio_internal.h"
 #include "os_support.h"
 #include "internal.h"

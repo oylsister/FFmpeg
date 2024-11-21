@@ -24,10 +24,10 @@
 #include "os_support.h"
 #include "url.h"
 #include "tls.h"
-#include "libavutil/avstring.h"
-#include "libavutil/getenv_utf8.h"
-#include "libavutil/mem.h"
-#include "libavutil/parseutils.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/getenv_utf8.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/parseutils.h"
 
 static int set_options(TLSShared *c, const char *uri)
 {

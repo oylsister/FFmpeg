@@ -28,19 +28,19 @@
 #include <unistd.h>
 #endif
 
-#include "libavutil/avassert.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/log.h"
-#include "libavutil/random_seed.h"
-#include "libavutil/time.h"
-#include "libavutil/time_internal.h"
+#include "../libavutil/avassert.h"
+#include "../libavutil/mathematics.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/bprint.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/log.h"
+#include "../libavutil/random_seed.h"
+#include "../libavutil/time.h"
+#include "../libavutil/time_internal.h"
 
-#include "libavcodec/defs.h"
+#include "../libavcodec/defs.h"
 
 #include "avformat.h"
 #include "avio_internal.h"

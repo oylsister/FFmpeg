@@ -17,7 +17,7 @@
  */
 
 #include "libavutil/mem_internal.h"
-#include "libavutil/timer.h"
+#include "libavutil/fftimer.h"
 
 #include "libavutil/des.c"
 

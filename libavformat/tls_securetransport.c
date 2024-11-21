@@ -28,11 +28,11 @@
 #include "os_support.h"
 #include "url.h"
 #include "tls.h"
-#include "libavcodec/internal.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
+#include "../libavcodec/internal.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/parseutils.h"
 
 #include <Security/Security.h>
 #include <Security/SecureTransport.h>

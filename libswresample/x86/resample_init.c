@@ -25,9 +25,9 @@
  * @author Michael Niedermayer <michaelni@gmx.at>
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/x86/cpu.h"
-#include "libswresample/resample.h"
+#include "../libavutil/attributes.h"
+#include "../libavutil/x86/cpu.h"
+#include "resample.h"
 
 #define RESAMPLE_FUNCS(type, opt) \
 int ff_resample_common_##type##_##opt(ResampleContext *c, void *dst, \

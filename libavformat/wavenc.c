@@ -34,15 +34,15 @@
 #include <string.h>
 #include <time.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/dict.h"
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavutil/time_internal.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/dict.h"
+#include "../libavutil/common.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/mathematics.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/time.h"
+#include "../libavutil/time_internal.h"
 
 #include "avformat.h"
 #include "avio.h"

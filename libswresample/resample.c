@@ -26,8 +26,8 @@
  * @author Michael Niedermayer <michaelni@gmx.at>
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/mem.h"
+#include "../libavutil/avassert.h"
+#include "../libavutil/mem.h"
 #include "resample.h"
 
 /**

@@ -46,9 +46,9 @@
 #include <poll.h>
 #endif
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/opt.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/parseutils.h"
+#include "../libavutil/opt.h"
 #include "avformat.h"
 #include "internal.h"
 #include "network.h"

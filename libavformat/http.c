@@ -27,15 +27,15 @@
 #include <zlib.h>
 #endif /* CONFIG_ZLIB */
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/getenv_utf8.h"
-#include "libavutil/macros.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavutil/parseutils.h"
+#include "../libavutil/avassert.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/bprint.h"
+#include "../libavutil/getenv_utf8.h"
+#include "../libavutil/macros.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/time.h"
+#include "../libavutil/parseutils.h"
 
 #include "avformat.h"
 #include "http.h"

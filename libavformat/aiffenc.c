@@ -21,9 +21,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/intfloat.h"
-#include "libavutil/opt.h"
-#include "libavcodec/packet_internal.h"
+#include "../libavutil/intfloat.h"
+#include "../libavutil/opt.h"
+#include "../libavcodec/packet_internal.h"
 #include "avformat.h"
 #include "internal.h"
 #include "aiff.h"

@@ -23,14 +23,14 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/fifo.h"
-#include "libavutil/log.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include "../libavutil/attributes.h"
+#include "../libavutil/fifo.h"
+#include "../libavutil/log.h"
+#include "../libavutil/mathematics.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
 
-#include "libavcodec/put_bits.h"
+#include "../libavcodec/put_bits.h"
 
 #include "avformat.h"
 #include "avio_internal.h"

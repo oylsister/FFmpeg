@@ -26,11 +26,11 @@
  * RTMPE protocol
  */
 
-#include "libavutil/blowfish.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
-#include "libavutil/rc4.h"
-#include "libavutil/xtea.h"
+#include "../libavutil/blowfish.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/rc4.h"
+#include "../libavutil/xtea.h"
 
 #include "internal.h"
 #include "rtmp.h"

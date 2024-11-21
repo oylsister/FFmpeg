@@ -22,15 +22,15 @@
 
 #include "config_components.h"
 
-#include "libavutil/avstring.h"
+#include "../libavutil/avstring.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"
 #include "mux.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/avassert.h"
-#include "libavutil/opt.h"
+#include "../libavutil/channel_layout.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/avassert.h"
+#include "../libavutil/opt.h"
 #include "argo_asf.h"
 
 /* Maximum number of blocks to read at once. */

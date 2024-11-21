@@ -24,8 +24,8 @@
  * G.723.1 demuxer
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/channel_layout.h"
+#include "../libavutil/attributes.h"
+#include "../libavutil/channel_layout.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

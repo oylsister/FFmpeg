@@ -22,8 +22,8 @@
 #include <inttypes.h>
 #include <stdlib.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/dict.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/dict.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

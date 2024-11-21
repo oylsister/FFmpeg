@@ -18,7 +18,7 @@
 
 #include "libavutil/log.h"
 #include "libavutil/mem.h"
-#include "libavutil/timer.h"
+#include "libavutil/fftimer.h"
 #include "libavutil/lfg.h"
 
 static const double Z_TABLE[31][10] = {

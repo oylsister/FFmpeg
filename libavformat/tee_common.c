@@ -21,8 +21,8 @@
 
 #include <string.h>
 
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
+#include "../libavutil/log.h"
+#include "../libavutil/opt.h"
 
 #include "tee_common.h"
 

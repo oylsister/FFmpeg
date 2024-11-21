@@ -23,13 +23,13 @@
 
 #include "config.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/time.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/bprint.h"
+#include "../libavutil/internal.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/time.h"
 
-#include "libavcodec/internal.h"
+#include "../libavcodec/internal.h"
 
 #include "avformat.h"
 #include "avio_internal.h"

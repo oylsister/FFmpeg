@@ -18,9 +18,9 @@
 
 #include <string.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/log.h"
+#include "../libavutil/mem.h"
 
 #include "url.h"
 
@@ -79,7 +79,7 @@ extern const URLProtocol ff_libzmq_protocol;
 extern const URLProtocol ff_ipfs_gateway_protocol;
 extern const URLProtocol ff_ipns_gateway_protocol;
 
-#include "libavformat/protocol_list.c"
+#include "protocol_list.c"
 
 const AVClass *ff_urlcontext_child_class_iterate(void **iter)
 {

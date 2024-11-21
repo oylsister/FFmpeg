@@ -21,11 +21,11 @@
 
 #include "config_components.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/file_open.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/file_open.h"
+#include "../libavutil/internal.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
 #include "avio.h"
 #if HAVE_DIRENT_H
 #include <dirent.h>
@@ -521,8 +521,8 @@ const URLProtocol ff_fd_protocol = {
 
 #if CONFIG_ANDROID_CONTENT_PROTOCOL
 #include <jni.h>
-#include "libavcodec/ffjni.h"
-#include "libavcodec/jni.h"
+#include "../libavcodec/ffjni.h"
+#include "../libavcodec/jni.h"
 
 typedef struct JFields {
     jclass uri_class;

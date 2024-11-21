@@ -28,11 +28,11 @@
 #include <inttypes.h>
 #include <time.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/mem.h"
-#include "libavutil/time_internal.h"
+#include "../libavutil/channel_layout.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/intfloat.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/time_internal.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

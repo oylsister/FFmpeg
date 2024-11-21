@@ -31,11 +31,11 @@
 #include "avc.h"
 #include "url.h"
 
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/uuid.h"
+#include "../libavutil/mem.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/mathematics.h"
+#include "../libavutil/uuid.h"
 
 typedef struct Fragment {
     int64_t start_time, duration;

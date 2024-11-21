@@ -22,14 +22,14 @@
 
 #include "config_components.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/channel_layout.h"
+#include "../libavutil/avstring.h"
+#include "../libavutil/channel_layout.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"
 #include "mux.h"
-#include "libavutil/opt.h"
-#include "libavutil/intreadwrite.h"
+#include "../libavutil/opt.h"
+#include "../libavutil/intreadwrite.h"
 
 /*
  * .CVG files are essentially PSX ADPCM wrapped with a size and checksum.

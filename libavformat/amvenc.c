@@ -24,8 +24,8 @@
 #include "riff.h"
 #include "internal.h"
 #include "avio_internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/avassert.h"
+#include "../libavutil/intreadwrite.h"
+#include "../libavutil/avassert.h"
 
 /*
  * Things to note:

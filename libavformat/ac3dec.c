@@ -21,9 +21,9 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/crc.h"
-#include "libavcodec/ac3_parser.h"
+#include "../libavutil/avassert.h"
+#include "../libavutil/crc.h"
+#include "../libavcodec/ac3_parser.h"
 #include "avformat.h"
 #include "demux.h"
 #include "rawdec.h"
